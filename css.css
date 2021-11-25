@@ -1,0 +1,67 @@
+#searchBar {
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+
+}
+#searchBar tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+#tt2 {
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#tt2 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+#tt3 {
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#tt3 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+#search2 {
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#search2 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+#search3{
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#search3 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+#每股盈餘 {
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#每股盈餘 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+#三大法人買賣超張數{
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#三大法人買賣超張數 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+#績效比較{
+    width: 50%;border:1px solid #888888;
+    text-align: center;
+}
+#績效比較 tr:nth-child(even){
+    background-color: rgb(255, 249, 242);
+}
+
+.center{
+    text-align: center;
+}

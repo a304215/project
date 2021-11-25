@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body bgcolor="#cccccc"></body>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+<form id = "demo">
+<div class=“container”>
+    <div id=“ttl”>
+    <h1 >個股即時明細</h1>
+
+    <img src="" alt="">
+    </div>
+    </div>
+
+
+
+    <input type="text" id="code_number" name="company_number" value="">
+    <button type="button" id="send_code">search</button>
+    
+    
+    <br>
+    <table id="tt2">
+        <td>公司名稱： <input type="text" id="b2"readonly></td>
+    </table>
+</table>
+<table id="tt3">
+<tr align="center">
+    <td >時：</td>
+    <td ><script language="JavaScript">
+        function ShowTime(){
+        　document.getElementById('showbox').innerHTML = new Date();
+        　setTimeout('ShowTime()',1000);
+        }
+        </script>
+        <body onload="ShowTime()">
+        <div id="showbox"></div>
+        </body></td>
+    <td >價：<input type="text" id="b3"readonly></td>
+    
+</tr></div>
+
+</table>
+<table id="search2">
+<tr align="center">
+    <td >最低：<input type="text" id="b5"readonly></td>
+    <td >最高：<input type="text" id="b6"readonly></td>
+    <td >開盤：<input type="text" id="b7"readonly></td>
+</tr></div>
+</tr align="center">
+<tr>
+    <td >最新一筆 即時明細</td>
+</tr>
+
+    <td >成交：<input type="text" id="b8"readonly></td>
+
+    <td >單量：<input type="text" id="b9"readonly></td>
+
+    <td >漲跌：<input type="text" id="b10"readonly></td>
+
+</tr>
+ 
+    <table id="search2">
+    <tr align="center">
+    </tr></div>
+    </tr align="center">
+        <td >即時明細</td>
+
+
+        <td >成交</td>
+
+        <td >單量</td>
+
+        <td >漲跌</td>
+
+    </tr>
+    <tr>
+        <td> <input type="text" id="a1"readonly></td>
+        <td> <input type="text" id="a2"readonly> </td>
+        <td> <input type="text" id="a3"readonly> </td>
+        <td> <input type="text" id="a4"readonly> </td>
+
+    </tr>
+
+    <tr>
+        <td> <input type="text" id="c1"readonly> </td>
+        <td> <input type="text" id="c2"readonly> </td>
+        <td> <input type="text" id="c3"readonly> </td>
+        <td> <input type="text" id="c4"readonly> </td>
+    </tr>
+    <tr>
+        <td> <input type="text" id="d1"readonly> </td>
+        <td> <input type="text" id="d2"readonly> </td>
+        <td> <input type="text" id="d3"readonly> </td>
+        <td> <input type="text" id="d4"readonly> </td>
+    </tr>
+    </table>
+    <table id="search3">
+        <tr align="center">
+            <td ><font color="#FF0000">委買</font></td>
+            <td ><font color="#0000ff">委賣</font></td>
+            <tr>
+                <td> <input type="text" id="e1"readonly> </td>
+                <td> <input type="text" id="f1"readonly> </td>
+            </tr>
+            <tr>
+                <td> <input type="text" id="e2"readonly> </td>
+                <td> <input type="text" id="f2"readonly> </td>
+            </tr>
+            <tr>
+                <td> <input type="text" id="e3"readonly> </td>
+                <td> <input type="text" id="f3"readonly> </td>
+            </tr>
+            <tr>
+                <td> <input type="text" id="e4"readonly> </td>
+                <td> <input type="text" id="f4"readonly> </td>
+            </tr>
+            <tr>
+                <td> <input type="text" id="e5"readonly> </td>
+                <td> <input type="text" id="f5"readonly> </td>
+            </tr>
+        </table>
+             <table id="每股盈餘">
+            <legend> 每股盈餘</legend>
+            <tr>
+                <td>近四季</td>
+                <td>   </td>
+                <td>   </td>
+
+            </tr>
+
+            <tr>
+                <td>2019 Q3</td>
+                <td><input type="text" id="g1"readonly></td>
+
+
+            </tr>
+
+            <tr>
+                <td> 2019 Q4</td>
+                <td> <input type="text" id="g2"readonly>  </td>
+
+
+
+            </tr>
+
+            <tr>
+                <td> 2020 Q1 </td>
+                <td> <input type="text" id="g3"readonly> </td>
+
+
+            </tr>
+
+            <tr>
+                <td> 2020 Q2 </td>
+                <td> <input type="text" id="g4"readonly> </td>
+
+
+            </tr>
+        </table>
+        <table id="三大法人買賣超張數">
+            <legend> 三大法人買賣超張數</legend>
+            <tr>
+                <td>項目</td>
+                <td>2020/10/05</td>
+            </tr>
+
+            <tr>
+                <th scope="row">外資</th>
+                <td> <input type="text" id="i1"readonly> </td>
+            </tr>
+
+            <tr>
+                <th scope="row">投信</th>
+                <td> <input type="text" id="i2"readonly> </td>
+            </tr>
+
+            <tr>
+                <th scope="row">自營商</th>
+                <td> <input type="text" id="i3"readonly> </td>
+            </tr>
+
+            <tr>
+                <th scope="row">合計</th>
+                <td> <input type="text" id="i4"readonly> </td>
+            </tr>
+        </table>
+
+
+        </ul>
+            <li></li>
+
+        </ul>
+        <a href="https://mops.twse.com.tw/mops/web/index">詳情請洽公開觀測站</a><br>
+        <p>text</p>盤後資訊<span class="highlight">
+    </form>
+    <script>
+        $(document).ready(function() {
+            $("#send_code").click(function() { //ID 為 submitExample 的按鈕被點擊時
+                $.ajax({
+                    type: "POST", //傳送方式
+                    url: "service.php", //傳送目的地
+                    dataType: "json", //資料格式
+                    data: { //傳送資料
+                        company_code : document.getElementById('code_number').value
+                    },
+                    success: function(data) {
+                        if (data) { //如果後端回傳 json 資料有 nickname
+                            $("#demo")[0].reset(); //重設 ID 為 demo 的 form (表單)
+                            console.log(data)
+                            document.getElementById('code_number').value = data.code_number;
+                            document.getElementById('b2').value = data.code_company;
+                            document.getElementById('b5').value = data.min_price;
+                            document.getElementById('b6').value = data.max_price;
+                            document.getElementById('b7').value = data.open_price;
+                            document.getElementById('g1').value = data.q3_2019;
+                            document.getElementById('g2').value = data.q4_2019;
+                            document.getElementById('g3').value = data.q1_2020;
+                            document.getElementById('g4').value = data.q2_2020;
+                            document.getElementById('i1').value = data.investment;
+                            document.getElementById('i2').value = data.credict;
+                            document.getElementById('i3').value = data.employed;
+                            document.getElementById('i4').value = data.total;
+
+                        }
+                    },
+                    error: function(jqXHR) {
+                        $("#demo")[0].reset(); //重設 ID 為 demo 的 form (表單)
+                        alert(jqXHR.status);
+                    }
+                })
+            })        
+        });
+    </script>
+<body>
+</html>
